@@ -1,0 +1,34 @@
+.active {
+    color: red;
+    text-decoration: none;
+}
+
+.idle {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    height: 4em;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.logo{
+    height: 4em;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.logo:hover {
+    transform: rotate(20deg);
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

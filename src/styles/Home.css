@@ -1,0 +1,14 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding-top: 3em;
+    color: grey;
+}
+
+.portada {
+    height: 300px;
+}

@@ -1,0 +1,29 @@
+.poke-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+    gap: 15px;
+    color: grey;
+}
+
+select{
+    width: 200px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: grey;
+    transform: scale(1.05);
+}

@@ -1,0 +1,50 @@
+.container-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.card {
+    height: 20em;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    width: 30em;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+h1{
+    color: grey;
+
+}
+.poke-img {
+    height: 200px;
+}
+
+.detail{
+    padding-right: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.tipo{
+    color: grey;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+li {
+    list-style: none;
+}
